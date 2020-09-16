@@ -8,6 +8,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import com.company.di.DependencyFactory;
+import com.company.di.model.SingletonExample;
 
 @DisplayName("SingletonExample Test")
 public class SingletonInstanceTest {
@@ -27,7 +28,7 @@ public class SingletonInstanceTest {
 		final SingletonExample bean2 = diFactory.getBean(SingletonExample.class);
 
 		assertNotNull(bean1);
-		assertNotNull(bean1);
-		assertEquals(bean1, bean1);
+		assertNotNull(bean2);
+		assertEquals(bean1, bean2);
 	}
 }
