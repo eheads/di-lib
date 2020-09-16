@@ -8,6 +8,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import com.company.di.DependencyFactory;
+import com.company.di.model.Example;
 
 @DisplayName("Prototype Instance Test")
 public class PrototypeInstanceTest {
@@ -30,11 +31,4 @@ public class PrototypeInstanceTest {
 		assertNotNull(bean2);
 		assertNotEquals(bean1, bean2);
 	}
-
-    class Example {   	
-    	public Example() {}
-    	public void print() {
-    		System.out.println("Printing Prototype instance...");
-    	}
-    }
 }
