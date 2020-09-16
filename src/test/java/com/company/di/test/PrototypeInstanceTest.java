@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import com.company.di.factory.DependencyFactory;
 import com.company.di.model.Example;
 
+//This unit test class is to test the dependency injection of Prototype type
 @DisplayName("Prototype Instance Test")
 public class PrototypeInstanceTest {
 	

@@ -10,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import com.company.di.factory.DependencyFactory;
 import com.company.di.model.SingletonExample;
 
+//This unit test class is to test the dependency injection of Singleton type
 @DisplayName("SingletonExample Test")
 public class SingletonInstanceTest {
 
