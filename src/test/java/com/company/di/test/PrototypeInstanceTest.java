@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import com.company.di.DependencyFactory;
+import com.company.di.factory.DependencyFactory;
 import com.company.di.model.Example;
 
 @DisplayName("Prototype Instance Test")

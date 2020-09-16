@@ -7,6 +7,6 @@ public class SingletonExample {
 	public SingletonExample() {}
 
 	public void print() {
-		System.out.println("Printing Prototype...");
+		System.out.println("Printing Singleton...");
 	}
 }

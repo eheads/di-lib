@@ -1,4 +1,4 @@
-package com.company.di;
+package com.company.di.factory;
 
 import java.util.HashMap;
 import java.util.Map;
