@@ -7,6 +7,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import com.company.di.DependencyFactory;
+
 @DisplayName("Prototype Instance Test")
 public class PrototypeInstanceTest {
 	
